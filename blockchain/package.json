@@ -1,0 +1,17 @@
+{
+  "name": "medical-report-blockchain",
+  "version": "1.0.0",
+  "description": "Cryptographic SHA-256 anchoring smart contract for medical report integrity verification",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "node": "hardhat node",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "ethers": "^6.11.0",
+    "hardhat": "^2.22.0"
+  }
+}

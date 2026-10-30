@@ -1,0 +1,183 @@
+{
+  "tests": {
+    "fasting_glucose_mg_dl": {
+      "standard_name": "fasting_glucose_mg_dl",
+      "display_name": "Fasting Blood Glucose",
+      "aliases": [
+        "fasting blood sugar",
+        "fasting glucose",
+        "fbs",
+        "blood glucose fasting",
+        "glucose fasting",
+        "fasting plasma glucose",
+        "fpg"
+      ],
+      "default_unit": "mg/dL",
+      "accepted_units": ["mg/dL", "mg/dl", "mmol/L", "mmol/l"],
+      "reference_range": "70 - 99 mg/dL",
+      "min_plausible": 30.0,
+      "max_plausible": 600.0,
+      "category": "Blood Glucose"
+    },
+    "hba1c_percentage": {
+      "standard_name": "hba1c_percentage",
+      "display_name": "Glycated Hemoglobin (HbA1c)",
+      "aliases": [
+        "hba1c",
+        "glycated hemoglobin",
+        "glycosylated hemoglobin",
+        "hemoglobin a1c",
+        "a1c"
+      ],
+      "default_unit": "%",
+      "accepted_units": ["%", "percent"],
+      "reference_range": "4.0 - 5.6 %",
+      "min_plausible": 3.0,
+      "max_plausible": 20.0,
+      "category": "Blood Glucose"
+    },
+    "cholesterol_total_mg_dl": {
+      "standard_name": "cholesterol_total_mg_dl",
+      "display_name": "Total Serum Cholesterol",
+      "aliases": [
+        "total cholesterol",
+        "cholesterol total",
+        "serum cholesterol",
+        "cholesterol"
+      ],
+      "default_unit": "mg/dL",
+      "accepted_units": ["mg/dL", "mg/dl", "mmol/L", "mmol/l"],
+      "reference_range": "< 200 mg/dL",
+      "min_plausible": 50.0,
+      "max_plausible": 500.0,
+      "category": "Lipid Profile"
+    },
+    "cholesterol_hdl_mg_dl": {
+      "standard_name": "cholesterol_hdl_mg_dl",
+      "display_name": "HDL Cholesterol",
+      "aliases": [
+        "hdl",
+        "hdl cholesterol",
+        "high density lipoprotein",
+        "hdl-c"
+      ],
+      "default_unit": "mg/dL",
+      "accepted_units": ["mg/dL", "mg/dl", "mmol/L", "mmol/l"],
+      "reference_range": "> 40 mg/dL (Men), > 50 mg/dL (Women)",
+      "min_plausible": 10.0,
+      "max_plausible": 150.0,
+      "category": "Lipid Profile"
+    },
+    "cholesterol_ldl_mg_dl": {
+      "standard_name": "cholesterol_ldl_mg_dl",
+      "display_name": "LDL Cholesterol",
+      "aliases": [
+        "ldl",
+        "ldl cholesterol",
+        "low density lipoprotein",
+        "ldl-c"
+      ],
+      "default_unit": "mg/dL",
+      "accepted_units": ["mg/dL", "mg/dl", "mmol/L", "mmol/l"],
+      "reference_range": "< 100 mg/dL",
+      "min_plausible": 20.0,
+      "max_plausible": 350.0,
+      "category": "Lipid Profile"
+    },
+    "triglycerides_mg_dl": {
+      "standard_name": "triglycerides_mg_dl",
+      "display_name": "Triglycerides",
+      "aliases": [
+        "triglycerides",
+        "tg",
+        "serum triglycerides"
+      ],
+      "default_unit": "mg/dL",
+      "accepted_units": ["mg/dL", "mg/dl", "mmol/L", "mmol/l"],
+      "reference_range": "< 150 mg/dL",
+      "min_plausible": 30.0,
+      "max_plausible": 1000.0,
+      "category": "Lipid Profile"
+    },
+    "serum_creatinine_mg_dl": {
+      "standard_name": "serum_creatinine_mg_dl",
+      "display_name": "Serum Creatinine",
+      "aliases": [
+        "creatinine",
+        "serum creatinine",
+        "creat",
+        "s. creatinine"
+      ],
+      "default_unit": "mg/dL",
+      "accepted_units": ["mg/dL", "mg/dl", "umol/L", "µmol/l"],
+      "reference_range": "0.7 - 1.3 mg/dL",
+      "min_plausible": 0.2,
+      "max_plausible": 15.0,
+      "category": "Kidney Function Test"
+    },
+    "blood_urea_nitrogen_mg_dl": {
+      "standard_name": "blood_urea_nitrogen_mg_dl",
+      "display_name": "Blood Urea Nitrogen (BUN)",
+      "aliases": [
+        "bun",
+        "blood urea",
+        "urea nitrogen",
+        "blood urea nitrogen"
+      ],
+      "default_unit": "mg/dL",
+      "accepted_units": ["mg/dL", "mg/dl", "mmol/L"],
+      "reference_range": "7 - 20 mg/dL",
+      "min_plausible": 2.0,
+      "max_plausible": 150.0,
+      "category": "Kidney Function Test"
+    },
+    "blood_pressure_systolic_mmhg": {
+      "standard_name": "blood_pressure_systolic_mmhg",
+      "display_name": "Systolic Blood Pressure",
+      "aliases": [
+        "systolic blood pressure",
+        "sbp",
+        "systolic bp",
+        "trestbps",
+        "resting blood pressure"
+      ],
+      "default_unit": "mmHg",
+      "accepted_units": ["mmHg", "mmhg"],
+      "reference_range": "90 - 120 mmHg",
+      "min_plausible": 60.0,
+      "max_plausible": 260.0,
+      "category": "Vitals"
+    },
+    "blood_pressure_diastolic_mmhg": {
+      "standard_name": "blood_pressure_diastolic_mmhg",
+      "display_name": "Diastolic Blood Pressure",
+      "aliases": [
+        "diastolic blood pressure",
+        "dbp",
+        "diastolic bp"
+      ],
+      "default_unit": "mmHg",
+      "accepted_units": ["mmHg", "mmhg"],
+      "reference_range": "60 - 80 mmHg",
+      "min_plausible": 40.0,
+      "max_plausible": 160.0,
+      "category": "Vitals"
+    },
+    "hemoglobin_g_dl": {
+      "standard_name": "hemoglobin_g_dl",
+      "display_name": "Hemoglobin (Hb)",
+      "aliases": [
+        "hemoglobin",
+        "hb",
+        "hgb",
+        "haemoglobin"
+      ],
+      "default_unit": "g/dL",
+      "accepted_units": ["g/dL", "g/dl", "g/L"],
+      "reference_range": "13.5 - 17.5 g/dL (Men), 12.0 - 15.5 g/dL (Women)",
+      "min_plausible": 3.0,
+      "max_plausible": 25.0,
+      "category": "Complete Blood Count"
+    }
+  }
+}
